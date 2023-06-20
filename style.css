@@ -1,0 +1,74 @@
+#contentTable,
+aside,
+header,
+footer {
+	background-color: #ea80fcc4;
+}
+
+.h2,
+.purple {
+	color: #582ecaff;
+}
+
+.form-control:focus,
+.form-select:focus {
+	box-shadow: 0 0 0 0.2rem rgba(88, 46, 202, 0.345);
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.btn-outline-primary {
+	--bs-btn-border-color: #582ecaff;
+	--bs-btn-hover-bg: #582ecaff;
+	--bs-btn-color: #582ecaff;
+}
+
+.btn-primary {
+	--bs-btn-bg: #582ecaff;
+	--bs-btn-hover-bg: var(--bs-btn-bg);
+	--bs-btn-active-bg: white;
+	--bs-btn-active-color: var(--bs-btn-bg);
+}
+
+h3 {
+	margin-top: 12px;
+}
+
+#appContainer #icon {
+	width: 64px;
+	float: left;
+}
+
+#appContainer h5,
+#appContainer p {
+	margin-bottom: 0;
+}
+
+/*#iconVideo {
+	display: block;
+}
+
+#iconVideo video {
+	max-width: 100px;
+}
+
+#iconVideo figcaption {
+	display: inline-block;
+}*/
+
+.credit {
+	display: block;
+}
+
+.link-body-emphasis {
+	color: #582ecaff;
+	font-weight: 450;
+}
+
+/*styling per router-link: viene convertito in "<a>" durante il parsing*/
+a {
+	text-decoration: none;
+	color: inherit;
+}

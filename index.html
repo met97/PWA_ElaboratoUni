@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Progressive Web Apps</title>
+	</head>
+	<body>
+		<div id="vueApp">
+			<div class="container-fluid overflow-hidden">
+				<!-- ####### NAVBAR ####### -->
+				<div class="row">
+					<div class="col-12 d-md-none p-0">
+						<header
+							class="navbar navbar-expand-md border-bottom border-dark-subtle shadow mb-2 rounded-bottom">
+							<nav class="container-fluid">
+								<router-link to="/" class="navbar-brand">
+									<img
+										src="img/pwa_logo.png"
+										alt="Progressive Web Apps"
+										width="60" />
+								</router-link>
+								<button
+									class="navbar-toggler"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#navbarNav"
+									aria-controls="navbarNav"
+									aria-expanded="false"
+									aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="navbarNav">
+									<ul class="navbar-nav">
+										<li class="nav-item">
+											<router-link
+												to="/"
+												class="nav-link active"
+												aria-current="page"
+												><img src="./menuIcons/house.svg" alt="" width="16" />
+												Home</router-link
+											>
+										</li>
+										<li class="nav-item">
+											<router-link
+												to="/features"
+												class="nav-link active"
+												aria-current="page"
+												><img src="./menuIcons/boxes.svg" alt="" width="16" />
+												Funzionalità</router-link
+											>
+										</li>
+										<li class="nav-item">
+											<router-link
+												to="/jsonApp"
+												class="nav-link active"
+												aria-current="page"
+												><img
+													src="./menuIcons/cloud-download.svg"
+													alt=""
+													width="16" />
+												App Store</router-link
+											>
+										</li>
+										<li class="nav-item">
+											<router-link
+												to="/editApp"
+												class="nav-link active"
+												aria-current="page"
+												><img
+													src="./menuIcons/pencil-square.svg"
+													alt=""
+													width="16" />
+												Modifica App</router-link
+											>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</header>
+					</div>
+				</div>
+				<div class="row">
+					<!-- ####### SIDEBAR ####### -->
+					<aside
+						class="d-none d-md-block col-md-3 vh-auto pt-3 border-end border-dark-subtle shadow rounded-end">
+						<div class="row">
+							<!-- NAV -->
+							<div class="col-12">
+								<router-link
+									to="/"
+									class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+									<img
+										src="img/pwa_logo.png"
+										alt="Progressive Web Apps"
+										width="60" />
+									<span class="fs-4"></span>
+								</router-link>
+								<hr />
+								<nav class="container-fluid">
+									<ul class="nav nav-pills flex-column mb-auto">
+										<li class="nav-item">
+											<router-link to="/" class="nav-link link-body-emphasis">
+												<img src="./menuIcons/house.svg" alt="" width="24" />
+												Home
+											</router-link>
+										</li>
+										<li>
+											<router-link
+												to="/features"
+												class="nav-link link-body-emphasis">
+												<img src="./menuIcons/boxes.svg" alt="" width="24" />
+												Funzionalità
+											</router-link>
+										</li>
+										<li>
+											<router-link
+												to="jsonApp"
+												class="nav-link link-body-emphasis">
+												<img
+													src="./menuIcons/cloud-download.svg"
+													alt=""
+													width="24" />
+												App Store
+											</router-link>
+										</li>
+										<li>
+											<router-link
+												to="/editApp"
+												class="nav-link link-body-emphasis">
+												<img
+													src="./menuIcons/pencil-square.svg"
+													alt=""
+													width="24" />
+												Modifica App
+											</router-link>
+										</li>
+									</ul>
+									<hr />
+								</nav>
+							</div>
+						</div>
+						<div class="container align-bottom mt-auto">
+							<div class="row">
+								<!-- footer sidebar -->
+								<div class="col-12">
+									<footer class="bg-transparent">
+										<ul class="list-unstyled align-bottom">
+											<li class="">
+												<p class="text-muted m-0">Mattia Bellardi</p>
+											</li>
+											<li class="">
+												<p class="text-muted m-0">Enrico Salvagiani</p>
+											</li>
+											<li class="">
+												<p class="text-muted m-0">Matteo Manganiello</p>
+											</li>
+										</ul>
+										<p class="lead">Elaborato: Progressive Web Apps</p>
+										<p class="text-muted pb-3">
+											Fondamenti di Sistemi Web -
+											<abbr title="Anno Accademico">A.A.</abbr> 2022/2023
+										</p>
+									</footer>
+								</div>
+							</div>
+						</div>
+					</aside>
+					<!-- ####### CONTENUTO ####### -->
+					<div class="col-12 col-md">
+						<main>
+							<div class="row">
+								<div class="col-12">
+									<router-view></router-view>
+								</div>
+							</div>
+						</main>
+					</div>
+				</div>
+				<!-- ####### FOOTER ####### -->
+				<div class="row">
+					<div class="col-12 d-md-none p-0">
+						<div class="container-fluid p-0">
+							<footer
+								class="border-top border-dark-subtle shadow mt-2 rounded-top">
+								<ul class="list-inline text-center pt-3">
+									<li class="list-inline-item">
+										<p class="nav-link text-muted m-0">Mattia Bellardi -</p>
+									</li>
+									<li class="list-inline-item">
+										<p class="nav-link text-muted m-0">Enrico Salvagiani -</p>
+									</li>
+									<li class="list-inline-item">
+										<p class="nav-link text-muted m-0">Matteo Manganiello</p>
+									</li>
+								</ul>
+								<p class="lead text-center">Elaborato: Progressive Web Apps</p>
+								<p class="text-center text-muted pb-3">
+									Fondamenti di Sistemi Web -
+									<abbr title="Anno Accademico">A.A.</abbr> 2022/2023
+								</p>
+							</footer>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ####### SCRIPT ####### -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+			crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+		<script src="https://unpkg.com/vue-router@4"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>

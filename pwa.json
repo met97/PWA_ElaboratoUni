@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Spotify",
+		"icons": ["./appIcons/spotify.png"],
+		"description": "Ascolta la tua musica preferita",
+		"price": "Gratis"
+	},
+	{
+		"name": "Telegram",
+		"icons": ["./appIcons/telegram.png"],
+		"description": "App di messaggistica, potente e completa",
+		"price": "Gratis"
+	},
+	{
+		"name": "Youtube",
+		"icons": ["./appIcons/youtube.png"],
+		"description": "Musica e video ovunque ti trovi",
+		"price": "Gratis"
+	},
+	{
+		"name": "Netflix",
+		"icons": ["./appIcons/netflix.svg"],
+		"description": "Film e Serie TV in streaming",
+		"price": "Gratis"
+	},
+	{
+		"name": "Microsoft 365",
+		"icons": ["./appIcons/365.png"],
+		"description": "La suite completa per Word, PowerPoint, Excel, e altro",
+		"price": "Gratis"
+	},
+	{
+		"name": "MyUnibo",
+		"icons": ["./appIcons/myunibo.png"],
+		"description": "Gestisci agenda e iscrizioni agli esami",
+		"price": "Gratis"
+	}
+]
