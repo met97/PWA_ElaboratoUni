@@ -1,4 +1,4 @@
-#contentTable,
+.contentTable,
 aside,
 header,
 footer {
@@ -45,18 +45,6 @@ h3 {
 #appContainer p {
 	margin-bottom: 0;
 }
-
-/*#iconVideo {
-	display: block;
-}
-
-#iconVideo video {
-	max-width: 100px;
-}
-
-#iconVideo figcaption {
-	display: inline-block;
-}*/
 
 .credit {
 	display: block;

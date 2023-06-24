@@ -5,7 +5,15 @@ const home = {
 				{
 					title: "Cosa sono le <abbr title='Progressive Web Apps'>PWA</abbr>?",
 					content:
-						"<p>Le applicazioni specifiche per una piattaforma, o sistema operativo, sono particolarmente apprezzabili per la loro ricchezza di funzionabilità, affidabilità e il fatto di essere sempre disponibili, anche offline. <br/> D'altra parte, le applicazioni web, sono particolarmente note per la loro accessibilità e fruibilità, indipendentemente dalla piattaforma.</p> <p class='lead purple'>Come si posizionano quindi, le Progressive Web Apps, in questo contesto?</p> <p>Le <abbr title='Progressive Web Apps'>PWA</abbr> sono in grado di offrire il meglio di entrambi i mondi. <br/> Sono infatti costruite mediante tecnologie web moderne e quindi visualizzabili da qualunque browser ma, proprio come le applicazioni native, possono sfruttare delle API avanzate per accedere a funzionalità specifiche di sistema, quali fotocamera, GPS e notifiche push. <br/> Inoltre, le <abbr title='Progressive Web Apps'>PWA</abbr> offrono un'esperienza di installazione simile a quella delle applicazioni native, consentendo l'aggiunta di un'icona sui menù del dispositivo, e sono utilizzabili offline.</p>",
+						"<p>Le applicazioni specifiche per una piattaforma, o sistema operativo, sono particolarmente apprezzabili per la loro ricchezza di funzionabilità, affidabilità e il fatto di essere sempre disponibili, anche offline. <br/> D'altra parte, le applicazioni web, sono particolarmente note per la loro accessibilità e fruibilità, indipendentemente dalla piattaforma.</p> <p class='lead purple'>Come si posizionano quindi, le Progressive Web Apps, in questo contesto?</p> <p>Le <abbr title='Progressive Web Apps'>PWA</abbr> sono in grado di offrire il meglio di entrambi i mondi. <br/> Sono infatti costruite mediante tecnologie web moderne e quindi visualizzabili da qualunque browser ma, proprio come le applicazioni native, possono sfruttare delle API avanzate per accedere a funzionalità specifiche di sistema, quali fotocamera, GPS e notifiche push. <br/> Inoltre, le <abbr title='Progressive Web Apps'>PWA</abbr> offrono un'esperienza di installazione simile a quella delle applicazioni native, consentendo l'aggiunta di un'icona sui menù del dispositivo, e sono utilizzabili offline.</p>\
+            <div class='row d-flex align-items-center'>\
+              <div class='col-12 col-md-6'>\
+                <img src='./img/graficoUtilizzo.png' class= 'img-fluid rounded' alt='Un grafico che rappresenta l'utilizzo delle PWA' longdesc='#utilizzoPWA'/>\
+              </div>\
+              <div class='col-12 col-md-6'>\
+                <div class='contentTable border border-dark p-2 my-3 mx-4'><p id='utilizzoPWA'>Le Progressive Web Apps (PWA), vengono utilizzate in diversi settori, tra cui e-commerce, media, social media, servizi finanziari, viaggi e giochi.  L'istogramma  rappresenta una suddivisione approssimativa dell'utilizzo delle PWA in tali settori.</p></div>\
+              </div>\
+            </div>",
 				},
 				{
 					title: "Il Web App Manifest",
@@ -105,9 +113,9 @@ const home = {
 	},
 	template: `
   <h1><span class="h2">Introduzione alle</span><br/>Progressive <span class="purple">Web</span> Apps</h1>
-  <div class="row">
+  <div class="row d-flex align-items-center">
     <div class="col-10 offset-1 col-md-5 offset-md-1">
-      <div id="contentTable" class="border border-dark p-2 my-3 mx-4">
+      <div class="contentTable border border-dark p-2 my-3 mx-4">
         <h4>Tabella dei contenuti</h4>
         <ul>
           <li>Cosa sono le <abbr title='Progressive Web Apps'>PWA</abbr>?</li>
@@ -218,7 +226,7 @@ const features = {
 	},
 	template: `
   <h1><span class="h2">Funzionalità</span> <br/> esclusive <span class="purple">delle</span> <abbr title='Progressive Web Apps'>PWA</abbr></h1>
-  <div id="contentTable" class="border border-dark p-2 my-3 mx-4">
+  <div class="contentTable border border-dark p-2 my-3 mx-4">
     <h4>Tabella dei contenuti</h4>
     <ul>
       <li>Velocizzare i processi con le scorciatoie delle App</li>
