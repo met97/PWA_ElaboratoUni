@@ -152,18 +152,18 @@ const features = {
 				{
 					title: "App Shortcuts",
 					content:
-						"<figure class='figure d-block'> \
-            <img class='figure-img img-fluid mx-auto d-block' src='./img/shortcuts-header.avif' alt='' /> \
+						"<figure class='figure d-block'>\
+            <img class='figure-img img-fluid mx-auto d-block' src='./img/shortcuts-header.png' alt='' /> \
             <figcaption class='figure-caption text-center'>Immagine di web.dev</figcaption> \
           </figure> \
           <p>I collegamenti (o scorciatoie) delle app, consentono agli sviluppatori web di fornire un accesso più veloce alle azioni più frequenti tra gli utenti. <br/> Il menù delle scorciatoie è estremamente semplice da richiamare: su ambienti Desktop (come Windows o MacOS) basta un click destro sull'icona dell'applicazione, mentre su dispositivi mobili è sufficiente una pressione prolungata sull'icona. <br/> Questi menù vengono visualizzati solo per le Progressive Web Apps, che sono installate sul desktop o sul dispositivo mobile dell’utente</p> <h3>Definire le scorciatoie nel Manifest</h3>\
           <p>Il Manifest è un file, in formato JSON, che fornisce informazioni importanti al browser riguardanti la Web App, oltre a specificare come questo dovrebbe comportarsi quando la nostra app viene installata in un dispositivo, mobile o desktop. <br/> Nel Manifest vengono anche definite le scorciatoie dell'app, mediante uno specifico array contenente nomi, URL e altre informazioni su ogni scorciatoia.</p> <h3>Best Practices</h3>\
           <div class='row'><div class='col-12 col-md-5'><figure class='figure '> \
-            <img class='figure-img img-fluid mx-auto d-inline-block' src='./img/shortcuts-android.avif' alt='' /> \
+            <img class='figure-img img-fluid mx-auto d-inline-block' src='./img/shortcuts-android.png' alt='' /> \
             <figcaption class='figure-caption text-center'>Menù delle shortcut in un dispositivo Android<span class='credit'>Immagine di web.dev</span></figcaption> \
           </figure></div> \
           <div class='d-none d-md-block col-md-5'><figure class='figure '> \
-            <img class='figure-img img-fluid mx-auto d-inline-block' src='./img/shortcuts-windows.avif' alt='' /> \
+            <img class='figure-img img-fluid mx-auto d-inline-block' src='./img/shortcuts-windows.png' alt='' /> \
             <figcaption class='figure-caption text-center'>Menù delle shortcut su Windows<span class='credit'>Immagine di web.dev</span></figcaption> \
           </figure></div></div> \
           <p>Esistono delle pratiche consigliate, da attuare quando si vogliono creare dei menù di shortcut nelle app. Tra queste, troviamo:\
@@ -175,7 +175,7 @@ const features = {
 					title: "Supporto alle icone adattive",
 					content:
 						"<figure class='figure d-block'> \
-            <img class='figure-img img-fluid mx-auto' src='./img/maskable_icons.avif' alt='' /> \
+            <img class='figure-img img-fluid mx-auto' src='./img/maskable_icons.png' alt='' /> \
             <figcaption class='figure-caption text-center'>Immagine di web.dev</figcaption> \
           </figure> \
           <p>Le icone adattive, o <strong>Maskable Icon</strong>, sono icone in grado di adattarsi alle diverse piattaforme. <br/> In una Progressive Web App installata su un telefono Android recente viene visualizzata l’icona a sfondo bianco.</p>\
@@ -208,7 +208,7 @@ const features = {
 					content:
 						"Personalizzare la title bar di una Progressive Web App può essere un'ottima strategia per rendere l'esperienza d'uso più <em>app-like</em> \
           <div style='width: 100%' class='text-center'><figure class='figure w-50'> \
-            <img class='figure-img img-fluid mx-auto d-block' src='./img/title_bar_img.avif' alt='' /> \
+            <img class='figure-img img-fluid mx-auto d-block' src='./img/title_bar_img.png' alt='' /> \
             <figcaption class='figure-caption text-center'>Una title bar personalizzata e responsiva<span class='credit'>Immagine di web.dev</span></figcaption> \
           </figure></div> \
           Esistono però dei casi in cui questa funzionalità non è disponibile:\
@@ -216,7 +216,7 @@ const features = {
           <li>Il browser supporta tale funzionalità, ma l'app è utilizzata in una Tab del browser</li><li>Il browser non supporta tale funzionalità</li>\
           </ul>\
           <div style='width: 100%' class='text-center'><figure class='figure w-50'> \
-            <img class='figure-img img-fluid mx-auto d-block' src='./img/title_bar_oldBrowser.avif' alt='' /> \
+            <img class='figure-img img-fluid mx-auto d-block' src='./img/title_bar_oldBrowser.png' alt='' /> \
             <figcaption class='figure-caption text-center'>I controlli previsti per la title bar, in un browser non aggiornato<span class='credit'>Immagine di web.dev</span></figcaption> \
           </figure></div> \
           In entrambi i casi, esiste un comportamento di default, che fa in modo che i controlli della title bar vengano renderizzati come regolare contenuto HTML nel body della pagina.",
