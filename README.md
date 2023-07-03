@@ -1,4 +1,4 @@
-# PWA_ElaboratoUni
+# Progetto per Sistemi Web
 
 Elaborato sulle Progessive Web Apps
 
